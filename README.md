@@ -30,6 +30,6 @@ https://asrabilal.github.io/PortfolioTest/
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-https://github.com/asrabilal/Portfolio.git
+https://github.com/asrabilal/PortfolioTest.git
 
 © 2022 Asra Solution Sevices, Inc.
