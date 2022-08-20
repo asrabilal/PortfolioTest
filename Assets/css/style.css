@@ -1,0 +1,163 @@
+/* HEADER BOX */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+/* HEADER FONT TYPE & SPACING*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    }
+
+/* HEADER FONT SIZE */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    }
+
+/* HEADER FONT SIZE */
+.header h2 {
+    display: inline-block;
+    font-size: 20px;
+    }    
+
+/* HEADER LINKS SPECIFICATION */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    }
+
+/* KEEPING HEADER LINKS IN A ROW */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    }
+
+/*CHANGING COLOR OF ALL THE LINKS WITH ATTRIBUTE A*/
+a {
+    color: #4056a1;
+    text-decoration: none;
+    }
+
+/*CHANGING COLOR OF TEXT */
+p {
+    color: #4056a1;
+    font-size: 16px;
+    }
+
+/* FLOATING CONTACT ME LINKS*/    
+.contactme {
+    float:left;
+    }
+
+/* ABOUT ME VERTICAL LINE */
+.vertical-line {border-left: 4px solid #4056a1; 
+    display: block;
+    height: 150px; 
+    margin: 0%; 
+    width: 50px;
+}
+
+/* WORK VERTICAL LINE */
+.vertical-line-work {border-left: 4px solid #4056a1; 
+    display: block;
+    height: 1000px; 
+    margin: 0%; 
+    width: 50px;
+}
+
+/* CONTACT ME VERTICAL LINE */
+.vertical-line-contactme {border-left: 4px solid #4056a1; 
+    display: block;
+    height: 70px; 
+    margin: 0%; 
+    width: 50px;
+}
+        
+/* HEADER BACKGROUND IMAGE */
+
+/*.header-bg 
+  { height: 400px;
+    width: auto;
+    margin-bottom: 25px;
+    background-image: url("../images/final.jpg"); 
+    background-size:cover;
+    background-position: center;
+    
+  }*/
+ 
+    
+  
+/* FLOATING HEADER LINKS */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 30px;
+    font-weight: bold;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* APPLICATIONS */
+.apps {
+    font-size: 50px;
+    width: 200px;
+    background-color: #ffffff; 
+    padding: 25px 25px 25px 25px;  
+    border: 5px solid #4056a1;
+    margin: 25px; 
+  }
+
+/* LIVE APPLICATION */
+  .runBuddy {
+    font-size: 50px;
+    width: 455px;
+    background-color: #ffffff; 
+    padding: 25px 25px 25px 25px;  
+    border: 5px solid #4056a1;
+    margin: 25px; 
+  }
+
+  /*#bg-container img{
+    width: auto;
+    height: auto;
+  }*/
+
+  /*@media only screen and (max-width: 400px) {
+    #header-bg{
+            width: auto;
+            height: auto;
+            background-size: 100% !important;
+    }
+  }*/
+
+  /* HEADINGS */
+  @media only screen and (max-width: 801px) and (min-width: 320px) {
+    .header div ul li {
+      /*float: right;*/
+      font-size: 15px;
+    }
+  }
+  
+  /* TEXT */
+  @media only screen and (max-width: 801px) and (min-width: 320px) {
+    .center tr td {
+      float:left;
+      font-size: 15px;
+    }
+  }
+
+  /*@media only screen and (max-width: 1024px) {
+    .text {
+      font-size:25px;
+    }
+  }*/
